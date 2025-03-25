@@ -1,0 +1,131 @@
+.prihlaseny_uzivatel{
+    position: fixed;
+    border-bottom: 2px solid gray;
+    border-left: 2px solid gray;
+    top: 94.5px;
+    right: 0;
+    height: 50px;
+    width: 300px;
+    z-index: 90;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.prihlaseny_uzivatel_DISKUSIA{
+    position: fixed;
+    border: 2px solid gray;
+    top: 119px;
+    right: 25px;
+    height: 50px;
+    width: 400px;
+    z-index: 90;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.prihlaseny_uzivatel_DISKUSIA_odhlaseny{
+    position: fixed;
+    border: 2px solid gray;
+    top: 240px;
+    right: 25px;
+    height: 50px;
+    width: 400px;
+    z-index: 90;
+    background-color: lightgray;
+    text-align: center;
+}
+
+.prihlaseny_text{
+    margin-top: 13px;
+    font-size: 20px;
+}
+
+.LOGOUT_LOGIN_BUTTON{
+    position: fixed;
+    top: 152px;
+    right: 105px;
+    z-index: 90;
+}
+
+.LOGOUT_LOGIN_BUTTON_DISKUSIA{
+    position: fixed;
+    top: 320px;
+    right: 190px;
+    z-index: 90;
+}
+
+.REGISTER_BUTTON{
+    position: fixed;
+    top: 175px;
+    right: 95px;
+    z-index: 90;
+}
+
+.pridanie_prispevku{
+    position: fixed;
+    z-index: 90;
+    right: 25px;
+    bottom: 25px;
+
+}
+
+.pridanie_prispevku_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.text_prispevku{
+    width: 400px;
+    height: 200px;
+}
+
+.submit_button_prispevky{
+    margin-top: 10px;
+}
+
+.text_o_pridani_prispevku{
+    color: white; 
+    font-size: 19px;
+}
+
+.LOGOUT_button{
+    position: fixed;
+    top: 180px;
+    right: 180px;
+}
+
+.show1{display: block;}
+
+@media (max-width : 950px){
+    .prihlaseny_uzivatel{
+        display: none;
+        top: 0;
+    }
+    .show1{display: block;}
+    .prihlaseny_uzivatel_DISKUSIA{
+        right: 0;
+        top: 0;
+    }
+    .prihlaseny_uzivatel_DISKUSIA_odhlaseny{
+        right: 0;
+        top: 120px;
+    }
+    .LOGOUT_LOGIN_BUTTON{
+        top: 57.5px;
+    }
+    .LOGOUT_LOGIN_BUTTON_DISKUSIA{
+        right: 170px;
+        top: 188px;
+    }
+    .REGISTER_BUTTON{
+        top: 80.5px;
+    }
+    .text_o_pridani_prispevku{
+        color: black;
+    }
+    .LOGOUT_button{
+        top: 60px;
+        right: 160px;
+    }
+}

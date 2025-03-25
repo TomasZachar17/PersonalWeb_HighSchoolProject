@@ -1,0 +1,54 @@
+.main_section_div_PORTFOLIO{
+    z-index: 50;
+    background-color: white;
+    width: 800px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0;
+    position: relative;
+}
+
+.nadpis_PORTFOLIO{
+    font-family: Special Elite;
+    color: gray;
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 35px;
+    font-weight: bold;
+    width: 400px;
+    text-align: center;
+}
+
+.fotky_container{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+    padding: 25px
+}
+
+.fotka{
+    width: 375px;
+    height: 375px;
+    object-fit: contain;
+}
+
+/*
+.fotkaV{
+    height: 375px;
+    width: 375px;
+    object-fit: contain;
+}
+*/
+
+.fotky_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width : 950px){
+    .main_section_div_PORTFOLIO{
+        margin-top: 60px;
+    }
+}

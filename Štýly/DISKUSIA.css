@@ -1,0 +1,116 @@
+.main_section_DISKUSIA{
+    padding-left: 25px;
+    display: flex;
+    justify-content: end;
+    
+}
+
+.main_section_DISKUSIA_div{
+    z-index: 50;
+    background-color: white;
+    
+    width: 800px;
+    margin-bottom: 20px;
+    margin-right: 0;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+}
+
+.blank_div{  /* aby zaberal miesto za REGISTER_LOGIN_container je position:fixed */
+    flex-shrink: 0;
+    background-color: transparent;
+    width: 400px;
+    height: 200px;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.majitel_prispevku{
+    margin: 20px 20px 0px 20px;
+    font-family: Arial;
+    font-size: 17px;
+    padding: 3px;
+    font-weight: bold;
+}
+
+.prispevok{
+    border: 2px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 0px 20px 0px 20px;
+    padding: 10px;
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 21px;
+    background-color: rgb(212, 212, 212);
+}   
+
+.KOMENTARE_text{
+    margin: 0px 20px 0px 20px;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+    font-weight: bold;
+}
+
+.komentar_formular{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    border-bottom: 2px solid gray;
+    margin-bottom: 30px;
+}
+
+.komentuj_text{
+font-family: Arial;
+padding-left: 10px;
+text-align: center;
+}
+
+.comment_textfield{
+    width: 420px;
+}
+
+.komentar_container{
+    display: flex;
+    position: relative;
+    border-right: 2px solid gray;
+    border-left: 2px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 0px 20px 0px 20px;
+    background-color: rgb(212, 212, 212);
+}
+
+.komentar_majitel{
+    font-weight: bold;
+}
+
+.komentar{
+    margin-left: 10px;
+}
+
+.vymazanie_komentara{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media(max-width : 950px){
+    .main_section_DISKUSIA{
+        padding-left: 0;
+    }
+
+    .main_section_DISKUSIA{
+        justify-content: center;
+    }
+
+    .blank_div{
+        display: none;
+    }
+
+    .main_section_DISKUSIA_div{
+        margin-top: 60px;
+    }
+}

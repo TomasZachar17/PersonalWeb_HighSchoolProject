@@ -1,0 +1,105 @@
+.REGISTER_LOGIN_container{
+    z-index: 150;
+    background-color: white;
+    position: fixed;
+    width: 400px;
+    height: 100px;
+    top: 120px;
+    right: 25px;
+    border: 2px solid gray;
+}
+
+.LOGIN_REGISTER_buttons{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.LOGIN_button{
+    margin-bottom: 20px;
+}
+
+.LOGIN_POP_UP,
+.REGISTER_POP_UP{
+    display: none;
+}
+
+.REGISTER_POP_UP_active
+.LOGIN_POP_UP_active{
+    display: block;
+}
+
+.LOGIN_POP_UP_BG,
+.REGISTER_POP_UP_BG{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.7;
+    z-index: 200;
+}
+
+.LOGIN_CONTAINER,
+.REGISTER_CONTAINER{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    opacity: 2;
+    z-index: 201;
+    position: fixed;
+    top: 350px;
+    bottom: 350px;
+    right: 300px;
+    left: 300px;
+}
+
+.close_POP_UP{
+    color: white;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.REGISTRACIA_LOGIN_TEXT{
+    color: white; 
+    margin-bottom: 25px; 
+    font-size: 25px;
+}
+
+.login_form_container,
+.register_form_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+}
+
+.REGISTRACIA_info,
+.LOGIN_info{
+    color: white;
+    font-size: 20px;
+}
+
+.show{display: block;}
+.show2{display: none;}
+
+@media(max-width : 950px){
+    .REGISTER_LOGIN_container{
+        top: 0;
+        right: 0;
+    }
+
+    .LOGIN_CONTAINER,
+    .REGISTER_CONTAINER{
+        left: 0;
+        right: 0;
+    }
+}

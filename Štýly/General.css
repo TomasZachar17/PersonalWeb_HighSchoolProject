@@ -1,0 +1,17 @@
+*   {
+    margin:0;
+    padding:0;
+ }
+
+body{
+    padding-top: 119px;
+}
+
+@media (max-width : 950px){
+    body{
+        padding-top: 0px;
+        padding-left: 0px;
+    }
+}
+
+
